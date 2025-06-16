@@ -1,0 +1,30 @@
+# Create the directories
+mkdir cosmic-watchtower-proxy
+cd cosmic-watchtower-proxy
+mkdir api
+
+# Create package.json
+$content = @'
+{
+  "name": "cosmic-watchtower-proxy",
+  "version": "1.0.0",
+  "description": "A Vercel-hosted serverless API proxy for the Cosmic Watchtower frontend.",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "author": "phoenixcryos",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5"
+  }
+}
+'@
+Set-Content -Path "package.json" -Value $content
+
+# (You would repeat the Set-Content process for all other files as we did successfully before)
+# Since you already have the correct script from the last step, you can use that to create the rest.
+# The key is that this time, after running the script, your package.json will be correct.

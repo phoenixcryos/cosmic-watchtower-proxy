@@ -1,0 +1,14 @@
+$content = @'
+{
+  "version": 2,
+  "functions": {
+    "api/**/*.js": {
+      "maxDuration": 15
+    }
+  },
+  "env": {
+    "NASA_API_KEY": "@nasa_api_key"
+  }
+}
+'@
+Set-Content -Path "vercel.json" -Value $content
