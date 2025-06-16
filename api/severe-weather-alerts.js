@@ -1,4 +1,3 @@
-$content = @'
 import axios from 'axios';
 import { runMiddleware, cors, handleError } from './_helpers';
 
@@ -16,7 +15,7 @@ export default async function handler(req, res) {
   // This API requires a specific User-Agent header
   const axiosConfig = {
     headers: {
-      'User-Agent': 'MyCosmicWatchtowerProxy/1.0 (your-contact-email@example.com)' // <-- CHANGE THIS
+      'User-Agent': 'CosmicWatchtowerProxy/1.0 (contact@yourdomain.com)' // <-- Replace with your actual contact email
     }
   };
 
@@ -28,5 +27,3 @@ export default async function handler(req, res) {
     handleError(res, error);
   }
 }
-'@
-Set-Content -Path "api\severe-weather-alerts.js" -Value $content

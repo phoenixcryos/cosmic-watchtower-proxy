@@ -1,4 +1,3 @@
-$content = @'
 // api/_helpers.js
 import Cors from 'cors';
 
@@ -7,7 +6,7 @@ import Cors from 'cors';
 const allowedOrigins = [
   'http://localhost:3000',
   'http://localhost:5173',
-  'https://your-app-name.vercel.app' // <-- CHANGE THIS
+  'https://cosmic-watchtower.vercel.app' // <-- Replace with your actual production URL
 ];
 
 export const cors = Cors({
@@ -60,5 +59,3 @@ export function handleError(res, error) {
 export function getFormattedDate(date) {
   return date.toISOString().split('T')[0];
 }
-'@
-Set-Content -Path "api\_helpers.js" -Value $content

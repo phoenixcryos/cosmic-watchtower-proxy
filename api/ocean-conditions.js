@@ -1,4 +1,3 @@
-$content = @'
 import axios from 'axios';
 import { runMiddleware, cors, handleError } from './_helpers';
 
@@ -11,7 +10,7 @@ export default async function handler(req, res) {
 
   console.log("Fetching /api/ocean-conditions");
   
-  const endpoint = 'https://marine-api.open-meteo.com/v1/marine?latitude=45.0&longitude=-30.0¤t=sea_surface_temperature,wave_height,wave_period,wave_direction&timezone=auto';
+  const endpoint = 'https://marine-api.open-meteo.com/v1/marine?latitude=45.0&longitude=-30.0&current=sea_surface_temperature,wave_height,wave_period,wave_direction&timezone=auto';
 
   try {
     const response = await axios.get(endpoint);
@@ -21,5 +20,3 @@ export default async function handler(req, res) {
     handleError(res, error);
   }
 }
-'@
-Set-Content -Path "api\ocean-conditions.js" -Value $content

@@ -1,4 +1,3 @@
-$content = @'
 import axios from 'axios';
 import { runMiddleware, cors, handleError, getFormattedDate } from './_helpers';
 
@@ -66,5 +65,3 @@ export default async function handler(req, res) {
     handleError(res, error);
   }
 }
-'@
-Set-Content -Path "api\solar-activity.js" -Value $content

@@ -6,6 +6,6 @@
     }
   },
   "env": {
-    "NASA_API_KEY": "@nasa_api_key"
+    "NASA_API_KEY": "@nasa_api_key" // Ensure this matches the environment variable set in Vercel
   }
 }

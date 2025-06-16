@@ -1,4 +1,3 @@
-$content = @'
 # Cosmic Watchtower - API Proxy Backend
 
 This project contains the serverless backend API for the Cosmic Watchtower application. It acts as a proxy between the React frontend and several third-party science APIs, handling API keys, CORS, and data aggregation. It is designed for easy deployment on [Vercel](https://vercel.com).
@@ -46,9 +45,32 @@ The `.gitignore` file is configured to ignore `.env` files, so you won't commit 
 4.  Choose the environments (Production, Preview, Development) you want this key to be available in.
 5.  Save the variable. Vercel will automatically trigger a new deployment with the updated environment.
 
+## Additional Configuration
+
+### CORS Configuration
+Update the `allowedOrigins` array in `api/_helpers.js` to include your frontend's production URL:
+```javascript
+const allowedOrigins = [
+  'http://localhost:3000',
+  'http://localhost:5173',
+  'https://your-production-url.com' // Replace with your actual production URL
+];
+```
+
+### User-Agent Header
+The `severe-weather-alerts.js` API requires a `User-Agent` header. Update it with your contact email or relevant information:
+```javascript
+const axiosConfig = {
+  headers: {
+    'User-Agent': 'CosmicWatchtowerProxy/1.0 (contact@yourdomain.com)' // Replace with your actual contact email
+  }
+};
+```
+
 ## Running Locally
 
 To run the serverless functions on your local machine for development and testing, use the Vercel CLI:
 
 ```bash
 vercel dev
+```

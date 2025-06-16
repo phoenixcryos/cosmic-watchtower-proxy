@@ -4,7 +4,8 @@
   "description": "A Vercel-hosted serverless API proxy for the Cosmic Watchtower frontend.",
   "private": true,
   "scripts": {
-    "dev": "vercel dev"
+    "dev": "vercel dev",
+    "lint": "eslint ."
   },
   "author": "phoenixcryos",
   "license": "ISC",
@@ -12,5 +13,8 @@
     "axios": "^1.6.8",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0"
   }
 }
