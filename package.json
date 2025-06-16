@@ -1,3 +1,4 @@
+$content = @'
 {
   "name": "cosmic-watchtower-proxy",
   "version": "1.0.0",
@@ -14,3 +15,5 @@
     "dotenv": "^16.4.5"
   }
 }
+'@
+Set-Content -Path "package.json" -Value $content
