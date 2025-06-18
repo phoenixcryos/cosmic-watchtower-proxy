@@ -1,0 +1,613 @@
+TimeUTC	timestampInMs	requestPath	requestMethod	requestQueryString	responseStatusCode	requestId	requestUserAgent	level	environment	branch	vercelCache	type	function	host	deploymentDomain	deploymentId	durationMs	region	maxMemoryUsed	memorySize	message	projectId	traceId	sessionId	invocationId	instanceId
+6/18/2025 4:08	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/solar-activity	GET		-1	8tgmm-1750219683434-c443579cb30a	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production	main	MISS	lambda	/api/solar-activity	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_5RACDA7pTdXkrgqe48vgdXQJjwMH	-1	iad1	-1	-1	"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue."	prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0KHXR7JFXMJ26J7KPD7KRF	
+6/18/2025 4:08	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/earthquakes	GET		-1	xvlpp-1750219683434-7bd7b713769e	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production	main	MISS	lambda	/api/earthquakes	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_5RACDA7pTdXkrgqe48vgdXQJjwMH	-1	iad1	-1	-1	"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue."	prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0KHXRH1D8ZSSEEV3759J71	
+6/18/2025 4:08	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/geomagnetic-activity	GET		-1	bq8md-1750219683434-0a7ea23eaf6b	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production	main	MISS	lambda	/api/geomagnetic-activity	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_5RACDA7pTdXkrgqe48vgdXQJjwMH	-1	iad1	-1	-1	"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue."	prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0KHXQRJ68E6T0PZ1HWYR5Y	
+6/18/2025 4:08	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/severe-weather-alerts	GET		-1	kv2wz-1750219683434-94960bad6f4c	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production	main	MISS	lambda	/api/severe-weather-alerts	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_5RACDA7pTdXkrgqe48vgdXQJjwMH	-1	iad1	-1	-1	"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue."	prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0KHXQHA6D40VRVQM3R58NN	
+6/18/2025 4:08	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/ocean-conditions	GET		-1	8dbp9-1750219683434-723b3f2c13eb	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production	main	MISS	lambda	/api/ocean-conditions	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_5RACDA7pTdXkrgqe48vgdXQJjwMH	-1	iad1	-1	-1	"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue."	prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0KHXQF422RTHDBWFGCACQX	
+6/18/2025 4:08	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/global-weather	GET		-1	b7fmx-1750219683434-ae0af71e3f2c	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production	main	MISS	lambda	/api/global-weather	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_5RACDA7pTdXkrgqe48vgdXQJjwMH	-1	iad1	-1	-1	"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue."	prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0KHXQPFPATHJXXASNE053Z	
+6/18/2025 4:08	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/earthquakes	GET		500	xvlpp-1750219683434-7bd7b713769e	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production	main	MISS	lambda	/api/earthquakes	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_5RACDA7pTdXkrgqe48vgdXQJjwMH	194	iad1	18	1024		prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0KHXRH1D8ZSSEEV3759J71	
+6/18/2025 4:08	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/solar-activity	GET		500	8tgmm-1750219683434-c443579cb30a	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production	main	MISS	lambda	/api/solar-activity	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_5RACDA7pTdXkrgqe48vgdXQJjwMH	206	iad1	17	1024		prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0KHXR7JFXMJ26J7KPD7KRF	
+6/18/2025 4:08	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/geomagnetic-activity	GET		500	bq8md-1750219683434-0a7ea23eaf6b	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production	main	MISS	lambda	/api/geomagnetic-activity	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_5RACDA7pTdXkrgqe48vgdXQJjwMH	195	iad1	17	1024		prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0KHXQRJ68E6T0PZ1HWYR5Y	
+6/18/2025 4:08	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/global-weather	GET		500	b7fmx-1750219683434-ae0af71e3f2c	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production	main	MISS	lambda	/api/global-weather	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_5RACDA7pTdXkrgqe48vgdXQJjwMH	192	iad1	17	1024		prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0KHXQPFPATHJXXASNE053Z	
+6/18/2025 4:08	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/severe-weather-alerts	GET		500	kv2wz-1750219683434-94960bad6f4c	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production	main	MISS	lambda	/api/severe-weather-alerts	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_5RACDA7pTdXkrgqe48vgdXQJjwMH	204	iad1	17	1024		prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0KHXQHA6D40VRVQM3R58NN	
+6/18/2025 4:08	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/ocean-conditions	GET		500	8dbp9-1750219683434-723b3f2c13eb	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production	main	MISS	lambda	/api/ocean-conditions	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_5RACDA7pTdXkrgqe48vgdXQJjwMH	207	iad1	17	1024		prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0KHXQF422RTHDBWFGCACQX	
+6/18/2025 4:01	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/ocean-conditions	GET		-1	757d9-1750219289257-bedd37abb1e7	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production		MISS	lambda	/api/ocean-conditions	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	-1	iad1	-1	-1	"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue."	prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0K5WQ5F11B7QVM4QA0XCC4	
+6/18/2025 4:01	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/geomagnetic-activity	GET		-1	txkqf-1750219289257-a6fdc234685c	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production		MISS	lambda	/api/geomagnetic-activity	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	-1	iad1	-1	-1	"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue."	prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0K5WQBFEXY7GS6SSCEP9AR	
+6/18/2025 4:01	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/earthquakes	GET		-1	ttd78-1750219289257-972978d98ba6	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production		MISS	lambda	/api/earthquakes	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	-1	iad1	-1	-1	"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue."	prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0K5WQBF60PP9TDFNC67CS1	
+6/18/2025 4:01	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/global-weather	GET		-1	cggnj-1750219289257-af44b8b333f6	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production		MISS	lambda	/api/global-weather	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	-1	iad1	-1	-1	"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue."	prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0K5WQ22F5QXDS2NGKXRFVS	
+6/18/2025 4:01	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/severe-weather-alerts	GET		-1	d6qk2-1750219289257-4fa844895143	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production		MISS	lambda	/api/severe-weather-alerts	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	-1	iad1	-1	-1	"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue."	prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0K5WQ6J4J1FT4HPKJ1BV3T	
+6/18/2025 4:01	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/solar-activity	GET		200	q9ckc-1750219289257-91dd8e0251b5	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	info	production		MISS	lambda	/api/solar-activity	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	1453	iad1	105	1024		prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0K5WQC8C9J7NC4CY8Y4PY6	Ee9DdOGlITO3
+6/18/2025 4:01	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/earthquakes	GET		500	ttd78-1750219289257-972978d98ba6	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production		MISS	lambda	/api/earthquakes	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	223	iad1	17	1024		prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0K5WQBF60PP9TDFNC67CS1	
+6/18/2025 4:01	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/geomagnetic-activity	GET		500	txkqf-1750219289257-a6fdc234685c	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production		MISS	lambda	/api/geomagnetic-activity	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	213	iad1	17	1024		prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0K5WQBFEXY7GS6SSCEP9AR	
+6/18/2025 4:01	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/severe-weather-alerts	GET		500	d6qk2-1750219289257-4fa844895143	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production		MISS	lambda	/api/severe-weather-alerts	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	210	iad1	17	1024		prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0K5WQ6J4J1FT4HPKJ1BV3T	
+6/18/2025 4:01	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/ocean-conditions	GET		500	757d9-1750219289257-bedd37abb1e7	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production		MISS	lambda	/api/ocean-conditions	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	209	iad1	18	1024		prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0K5WQ5F11B7QVM4QA0XCC4	
+6/18/2025 4:01	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/global-weather	GET		500	cggnj-1750219289257-af44b8b333f6	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production		MISS	lambda	/api/global-weather	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	218	iad1	17	1024		prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0K5WQ22F5QXDS2NGKXRFVS	
+6/18/2025 3:51	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/geomagnetic-activity	GET		-1	chs8l-1750218688775-8e1a488ecbd3	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production		MISS	lambda	/api/geomagnetic-activity	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	-1	iad1	-1	-1	"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue."	prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0JKJ9M48RP377Y1VCK2BCD	
+6/18/2025 3:51	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/global-weather	GET		-1	xc6kr-1750218688775-7be502e282bd	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production		MISS	lambda	/api/global-weather	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	-1	iad1	-1	-1	"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue."	prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0JKJ9JJJBMGX51S5B5WWXW	
+6/18/2025 3:51	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/earthquakes	GET		-1	6bht4-1750218688775-45b74da59eee	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production		MISS	lambda	/api/earthquakes	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	-1	iad1	-1	-1	"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue."	prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0JKJ9HRKF4DDGJRPEFE0NT	
+6/18/2025 3:51	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/severe-weather-alerts	GET		-1	kgpzs-1750218688784-bbc6986c7f02	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production		MISS	lambda	/api/severe-weather-alerts	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	-1	iad1	-1	-1	"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue."	prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0JKJ9HV8W1NJ098EAWFCDE	
+6/18/2025 3:51	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/ocean-conditions	GET		-1	vp4v6-1750218688775-30f1e09c02af	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production		MISS	lambda	/api/ocean-conditions	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	-1	iad1	-1	-1	"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue."	prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0JKJ9G19GZ29E9CT6V02H9	
+6/18/2025 3:51	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/geomagnetic-activity	GET		500	chs8l-1750218688775-8e1a488ecbd3	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production		MISS	lambda	/api/geomagnetic-activity	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	221	iad1	17	1024		prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0JKJ9M48RP377Y1VCK2BCD	
+6/18/2025 3:51	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/solar-activity	GET		200	dvx9v-1750218688775-cce83d3f28d3	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	info	production		MISS	lambda	/api/solar-activity	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	1444	iad1	104	1024		prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0JKJ9JH4R6HKKPADWAGQ3T	crLmH65IVtC8
+6/18/2025 3:51	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/global-weather	GET		500	xc6kr-1750218688775-7be502e282bd	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production		MISS	lambda	/api/global-weather	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	214	iad1	18	1024		prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0JKJ9JJJBMGX51S5B5WWXW	
+6/18/2025 3:51	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/severe-weather-alerts	GET		500	kgpzs-1750218688784-bbc6986c7f02	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production		MISS	lambda	/api/severe-weather-alerts	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	217	iad1	17	1024		prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0JKJ9HV8W1NJ098EAWFCDE	
+6/18/2025 3:51	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/earthquakes	GET		500	6bht4-1750218688775-45b74da59eee	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production		MISS	lambda	/api/earthquakes	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	210	iad1	16	1024		prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0JKJ9HRKF4DDGJRPEFE0NT	
+6/18/2025 3:51	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/ocean-conditions	GET		500	vp4v6-1750218688775-30f1e09c02af	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production		MISS	lambda	/api/ocean-conditions	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	212	iad1	17	1024		prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0JKJ9G19GZ29E9CT6V02H9	
+6/18/2025 3:49	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/severe-weather-alerts	GET		-1	2g5ht-1750218560749-35ab773f7222	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production		MISS	lambda	/api/severe-weather-alerts	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	-1	iad1	-1	-1	"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue."	prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0JFN8RRPYK6MDBYBVA1317	
+6/18/2025 3:49	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/ocean-conditions	GET		-1	nnkdf-1750218560749-239fec2d2de0	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production		MISS	lambda	/api/ocean-conditions	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	-1	iad1	-1	-1	"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue."	prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0JFN8R8NAV12Y45DBP7M38	
+6/18/2025 3:49	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/earthquakes	GET		-1	zjckf-1750218560749-4a0bb7a6669e	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production		MISS	lambda	/api/earthquakes	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	-1	iad1	-1	-1	"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue."	prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0JFN8SR06Z8FMXK1GE4P2Q	
+6/18/2025 3:49	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/geomagnetic-activity	GET		-1	nzgtp-1750218560749-8d58835c6be0	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production		MISS	lambda	/api/geomagnetic-activity	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	-1	iad1	-1	-1	"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue."	prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0JFN8SQ2SCNX2M8B0Q5E83	
+6/18/2025 3:49	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/global-weather	GET		-1	c9pf8-1750218560749-6c8649a05d12	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production		MISS	lambda	/api/global-weather	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	-1	iad1	-1	-1	"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'cors' imported from /var/task/api/_helpers.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue."	prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0JFN8SFNK5B310XGE9YVGZ	
+6/18/2025 3:49	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/solar-activity	GET		200	xfml7-1750218560749-8d30beeb01e3	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	info	production		MISS	lambda	/api/solar-activity	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	1457	iad1	111	1024		prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0JFN8S506YR1B8YSRNZ91S	b93WQBRyq2ti
+6/18/2025 3:49	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/geomagnetic-activity	GET		500	nzgtp-1750218560749-8d58835c6be0	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production		MISS	lambda	/api/geomagnetic-activity	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	200	iad1	17	1024		prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0JFN8SQ2SCNX2M8B0Q5E83	
+6/18/2025 3:49	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/global-weather	GET		500	c9pf8-1750218560749-6c8649a05d12	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production		MISS	lambda	/api/global-weather	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	210	iad1	17	1024		prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0JFN8SFNK5B310XGE9YVGZ	
+6/18/2025 3:49	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/severe-weather-alerts	GET		500	2g5ht-1750218560749-35ab773f7222	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production		MISS	lambda	/api/severe-weather-alerts	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	200	iad1	17	1024		prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0JFN8RRPYK6MDBYBVA1317	
+6/18/2025 3:49	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/earthquakes	GET		500	zjckf-1750218560749-4a0bb7a6669e	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production		MISS	lambda	/api/earthquakes	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	230	iad1	17	1024		prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0JFN8SR06Z8FMXK1GE4P2Q	
+6/18/2025 3:49	1.75022E+12	cosmic-watchtower-proxy.vercel.app/api/ocean-conditions	GET		500	nnkdf-1750218560749-239fec2d2de0	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36	error	production		MISS	lambda	/api/ocean-conditions	cosmic-watchtower-proxy.vercel.app	cosmic-watchtower-proxy.vercel.app	dpl_BhdoDGM9VkwvKcs9JjEYXFYRJfai	214	iad1	17	1024		prj_D2XNADVCwAR4NmmwAWAMKBME3MIm			01JY0JFN8R8NAV12Y45DBP7M38	
