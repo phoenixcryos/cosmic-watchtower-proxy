@@ -1,18 +1,24 @@
 {
   "version": 2,
+  // The "functions" section defines per-function settings. We specify that all functions 
+  // in the `api` directory use Node.js 20.x runtime and can run up to 10 seconds.
   "functions": {
     "api/**/*.js": {
-      "runtime": "nodejs20.x"
+      "runtime": "nodejs20.x",
+      "maxDuration": 10       // Set max execution time to 10s (adjust if NASA API calls need longer).
+      // "memory": 128        // (Optional) Could specify memory in MB if needed; default is 128MB.
     }
   },
+  // The "env" object maps environment var names to Vercel project secrets.
+  // We use an uppercase key to match the code's expectation of process.env.NASA_API_KEY.
   "env": {
-    "nasa_api_key": "@nasa_api_key"
+    "NASA_API_KEY": "@NASA_API_KEY"
   },
   "headers": [
     {
       "source": "/api/(.*)",
       "headers": [
-        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Origin",  "value": "*" },
         { "key": "Access-Control-Allow-Methods", "value": "GET, POST, PUT, DELETE, OPTIONS" },
         { "key": "Access-Control-Allow-Headers", "value": "Content-Type, Authorization" }
       ]
