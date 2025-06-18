@@ -6,9 +6,6 @@
       "maxDuration": 10
     }
   },
-  "env": {
-    "NASA_API_KEY": "@NASA_API_KEY"
-  },
   "headers": [
     {
       "source": "/api/(.*)",
