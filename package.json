@@ -1,27 +1,25 @@
 {
   "name": "cosmic-watchtower-proxy",
   "version": "1.0.0",
-  "description": "A Vercel-hosted serverless API proxy for the Cosmic Watchtower frontend.",
-  "type": "module",
+  "description": "Serverless API proxy for the Cosmic Watchtower frontend.",
   "private": true,
+  "type": "module",       // Ensures Node treats .js files as ES Modules (required for import/export usage).
+  "engines": {
+    "node": ">=20.0.0"    // Specifies Node.js 20+, aligning with Vercel runtime choice (Node 20.x).
+  },
   "scripts": {
-    "dev": "vercel dev",
-    "build": "echo 'No build step required for serverless functions'",
+    "dev": "vercel dev", 
+    "build": "echo 'No build step required for serverless functions'", 
     "deploy": "vercel --prod",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "test": "echo 'No tests specified'"
   },
-  "author": "phoenixcryos",
-  "license": "ISC",
-  "engines": {
-    "node": ">=20.0.0"
-  },
   "dependencies": {
-    "axios": "^1.6.8"
+    "axios": "^1.6.8"     // Used for making HTTP requests to external APIs (e.g., NASA DONKI).
   },
   "devDependencies": {
-    "eslint": "^8.50.0",
-    "@vercel/node": "^3.0.0"
+    "@vercel/node": "^3.0.0",  // Vercel Node builder for local development (allows `vercel dev` to work with ESM).
+    "eslint": "^8.50.0"
   }
 }
