@@ -1,30 +1,70 @@
 import axios from 'axios';
-import { runMiddleware, cors, handleError, getFormattedDate } from './_helpers';
 
 export default async function handler(req, res) {
-  await runMiddleware(req, res, cors);
+  // Enable CORS
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
 
-  if (req.method !== 'GET') {
-    return res.status(405).json({ error: 'Method Not Allowed' });
+  if (req.method === 'OPTIONS') {
+    res.status(200).end();
+    return;
   }
 
-  console.log("Fetching /api/geomagnetic-storm");
-
-  const today = new Date();
-  const thirtyDaysAgo = new Date();
-  thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
-  
-  const formattedToday = getFormattedDate(today);
-  const formattedStartDate = getFormattedDate(thirtyDaysAgo);
-
-  const NASA_API_KEY = process.env.NASA_API_KEY;
-  const endpoint = `https://api.nasa.gov/DONKI/GST?startDate=${formattedStartDate}&endDate=${formattedToday}&api_key=${NASA_API_KEY}`;
+  if (req.method !== 'GET') {
+    return res.status(405).json({ error: 'Method not allowed' });
+  }
 
   try {
-    const response = await axios.get(endpoint);
-    res.setHeader('Cache-Control', 's-maxage=3600, stale-while-revalidate'); // Cache for 1 hour
-    res.status(200).json(response.data);
+    const API_KEY = process.env.NASA_API_KEY;
+    
+    if (!API_KEY) {
+      console.error('NASA API key not found in environment variables');
+      return res.status(500).json({ 
+        success: false,
+        error: 'NASA API key not configured' 
+      });
+    }
+
+    // Get current date and 30 days ago for recent data
+    const endDate = new Date().toISOString().split('T')[0];
+    const startDate = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString().split('T')[0];
+    
+    const response = await axios.get(
+      `https://api.nasa.gov/DONKI/GST?startDate=${startDate}&endDate=${endDate}&api_key=${API_KEY}`,
+      {
+        timeout: 10000,
+        headers: {
+          'User-Agent': 'cosmic-watchtower-proxy/1.0.0'
+        }
+      }
+    );
+    
+    res.status(200).json({
+      success: true,
+      data: response.data,
+      timestamp: new Date().toISOString()
+    });
   } catch (error) {
-    handleError(res, error);
+    console.error('Geomagnetic storm API error:', error.message);
+    
+    if (error.code === 'ECONNABORTED') {
+      return res.status(504).json({
+        success: false,
+        error: 'Request timeout - NASA API took too long to respond'
+      });
+    }
+    
+    if (error.response) {
+      return res.status(error.response.status).json({
+        success: false,
+        error: `NASA API error: ${error.response.statusText}`
+      });
+    }
+    
+    res.status(500).json({
+      success: false,
+      error: 'Failed to fetch geomagnetic storm data'
+    });
   }
 }

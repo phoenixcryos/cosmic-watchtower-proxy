@@ -31,7 +31,7 @@ export default async function handler(req, res) {
     const startDate = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString().split('T')[0];
     
     const response = await axios.get(
-      `https://api.nasa.gov/DONKI/FLR?startDate=${startDate}&endDate=${endDate}&api_key=${API_KEY}`,
+      `https://api.nasa.gov/DONKI/CME?startDate=${startDate}&endDate=${endDate}&api_key=${API_KEY}`,
       {
         timeout: 10000,
         headers: {
@@ -46,7 +46,7 @@ export default async function handler(req, res) {
       timestamp: new Date().toISOString()
     });
   } catch (error) {
-    console.error('Solar activity API error:', error.message);
+    console.error('CME API error:', error.message);
     
     if (error.code === 'ECONNABORTED') {
       return res.status(504).json({
@@ -64,7 +64,7 @@ export default async function handler(req, res) {
     
     res.status(500).json({
       success: false,
-      error: 'Failed to fetch solar activity data'
+      error: 'Failed to fetch coronal mass ejection data'
     });
   }
 }

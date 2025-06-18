@@ -1,28 +1,31 @@
 import axios from 'axios';
-import { runMiddleware, cors, handleError } from './_helpers';
+import { handleError, setCORSHeaders, handleOptions, validateGETMethod } from './_helpers.js';
 
 export default async function handler(req, res) {
-  await runMiddleware(req, res, cors);
-
-  if (req.method !== 'GET') {
-    return res.status(405).json({ error: 'Method Not Allowed' });
-  }
+  setCORSHeaders(res);
+  
+  if (handleOptions(req, res)) return;
+  if (!validateGETMethod(req, res)) return;
   
   console.log("Fetching /api/severe-weather-alerts");
   
-  const endpoint = 'https://api.weather.gov/alerts/active?status=actual&message_type=alert,update&urgency=Immediate,Expected&severity=Extreme,Severe,Moderate';
-  
-  // This API requires a specific User-Agent header
-  const axiosConfig = {
-    headers: {
-      'User-Agent': 'CosmicWatchtowerProxy/1.0 (contact@yourdomain.com)' // <-- Replace with your actual contact email
-    }
-  };
-
   try {
-    const response = await axios.get(endpoint, axiosConfig);
-    res.setHeader('Cache-Control', 's-maxage=180, stale-while-revalidate'); // Cache for 3 minutes
-    res.status(200).json(response.data);
+    const response = await axios.get(
+      'https://api.weather.gov/alerts/active?status=actual&message_type=alert,update&urgency=Immediate,Expected&severity=Extreme,Severe,Moderate',
+      {
+        timeout: 10000,
+        headers: {
+          'User-Agent': 'CosmicWatchtowerProxy/1.0 (phoenixcryos@example.com)'
+        }
+      }
+    );
+
+    res.setHeader('Cache-Control', 's-maxage=180, stale-while-revalidate');
+    res.status(200).json({
+      success: true,
+      data: response.data,
+      timestamp: new Date().toISOString()
+    });
   } catch (error) {
     handleError(res, error);
   }

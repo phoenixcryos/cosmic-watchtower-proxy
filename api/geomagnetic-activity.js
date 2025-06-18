@@ -1,24 +1,29 @@
 import axios from 'axios';
-import { runMiddleware, cors, handleError } from './_helpers';
+import { handleError, setCORSHeaders, handleOptions, validateGETMethod } from './_helpers.js';
 
 export default async function handler(req, res) {
-  await runMiddleware(req, res, cors);
-
-  if (req.method !== 'GET') {
-    return res.status(405).json({ error: 'Method Not Allowed' });
-  }
+  setCORSHeaders(res);
+  
+  if (handleOptions(req, res)) return;
+  if (!validateGETMethod(req, res)) return;
 
   console.log("Fetching /api/geomagnetic-activity");
 
-  const endpoints = {
-    kpIndex: 'https://services.swpc.noaa.gov/products/noaa-estimated-kp.json',
-    auroraForecast: 'https://services.swpc.noaa.gov/json/ovation_aurora_latest.json',
-  };
-
   try {
+    const endpoints = {
+      kpIndex: 'https://services.swpc.noaa.gov/products/noaa-estimated-kp.json',
+      auroraForecast: 'https://services.swpc.noaa.gov/json/ovation_aurora_latest.json',
+    };
+
     const [kpRes, auroraRes] = await Promise.all([
-      axios.get(endpoints.kpIndex),
-      axios.get(endpoints.auroraForecast),
+      axios.get(endpoints.kpIndex, {
+        timeout: 10000,
+        headers: { 'User-Agent': 'cosmic-watchtower-proxy/1.0.0' }
+      }),
+      axios.get(endpoints.auroraForecast, {
+        timeout: 10000,
+        headers: { 'User-Agent': 'cosmic-watchtower-proxy/1.0.0' }
+      }),
     ]);
     
     const responseData = {
@@ -26,8 +31,12 @@ export default async function handler(req, res) {
       auroraForecast: auroraRes.data,
     };
 
-    res.setHeader('Cache-Control', 's-maxage=300, stale-while-revalidate'); // Cache for 5 minutes
-    res.status(200).json(responseData);
+    res.setHeader('Cache-Control', 's-maxage=300, stale-while-revalidate');
+    res.status(200).json({
+      success: true,
+      data: responseData,
+      timestamp: new Date().toISOString()
+    });
   } catch (error) {
     handleError(res, error);
   }

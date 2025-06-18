@@ -41,6 +41,7 @@ export function handleError(res, error) {
   // Axios error provides more details
   if (error.response) {
     return res.status(error.response.status || 502).json({
+      success: false,
       error: "Failed to fetch data from upstream API.",
       details: error.message,
       upstreamStatus: error.response.status,
@@ -48,8 +49,17 @@ export function handleError(res, error) {
     });
   }
   
+  // Network timeout errors
+  if (error.code === 'ECONNABORTED') {
+    return res.status(504).json({
+      success: false,
+      error: 'Request timeout - API took too long to respond'
+    });
+  }
+  
   // Generic network or other errors
   return res.status(500).json({
+    success: false,
     error: "An internal server error occurred.",
     details: error.message
   });
@@ -58,4 +68,30 @@ export function handleError(res, error) {
 // Helper for dynamic date formatting (YYYY-MM-DD)
 export function getFormattedDate(date) {
   return date.toISOString().split('T')[0];
+}
+
+// Helper function to set CORS headers
+export function setCORSHeaders(res) {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+}
+
+// Helper function to handle OPTIONS requests
+export function handleOptions(req, res) {
+  if (req.method === 'OPTIONS') {
+    setCORSHeaders(res);
+    res.status(200).end();
+    return true;
+  }
+  return false;
+}
+
+// Helper function to validate GET method
+export function validateGETMethod(req, res) {
+  if (req.method !== 'GET') {
+    res.status(405).json({ success: false, error: 'Method not allowed' });
+    return false;
+  }
+  return true;
 }
